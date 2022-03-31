@@ -1,0 +1,305 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+body {
+    background-color: hsl(270, 20%, 96%);
+    /* overflow-x: hidden !important; */
+    font-family: 'Rubik', sans-serif;
+    ;
+}
+
+/* First column*/
+.curve {
+    border-bottom-right-radius: 700px;
+    margin-bottom: 6rem;
+    /* background-color: hsl(293, 100%, 63%); */
+    background-color: hsl(276, 55%, 52%);
+    height: 1200px;
+}
+
+.sub-curve {
+    margin-left: -5rem;
+    margin-top: 10rem;
+}
+
+.sub-curve2 {
+    margin-left: 5rem;
+    z-index: 100;
+    position: relative;
+}
+
+/* last column */
+.curve2 {
+    border-top-left-radius: 700px;
+    margin-top: 10rem;
+    background-color: #f0e9f7;
+
+}
+
+/* Middle column */
+.card {
+    border-radius: 50px;
+    width: 25rem;
+    overflow: hidden;
+}
+
+.card-body {
+    /* border: 1px solid rgba(0, 0, 0, .125); */
+    /* width: 23rem; */
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 0rem !important;
+    overflow: hidden;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.jumbotron {
+
+    padding: 0.5rem 0.5rem !important;
+    background-image: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    border: 2px solid #fff;
+}
+
+.pale-violet {
+    color: hsl(276, 100%, 81%);
+    margin-top: -1rem;
+    margin-left: 4.5rem;
+}
+
+.card-text {
+    padding: 10px;
+    background-color: #ede5f4;
+    border-radius: 20px 20px 20px 2px;
+    color: hsl(276, 55%, 52%);
+    width: 220px;
+}
+
+
+.card-text2 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px 20px 2px 20px;
+    color: hsl(271, 15%, 43%);
+    width: 220px;
+}
+
+.card-radio {
+    padding: 10px;
+    background-image: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 250px;
+    /* background-image: linear-gradient(90deg,  hsl(264, 100%, 61%), hsl(293, 100%, 63%)); */
+    border-radius: 20px 20px 20px 2px;
+}
+
+.b-flex {
+    display: flex;
+
+}
+
+.dogs {
+    width: 60px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    background-color: transparent;
+    /* margin: 0; */
+    font: inherit;
+    color: white;
+    width: 14px;
+    height: 14px;
+    border: 1px solid hsl(289, 100%, 72%);
+    border-radius: 50%;
+
+}
+
+.form-rounded {
+    border-radius: 2rem;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ffffff !important;
+    /* border-radius: 0.25rem; */
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    /* border-radius: 0.25rem; */
+}
+
+
+.fa-chevron-right {
+    border: 1px solid hsl(271, 36%, 24%)0;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    padding: 9px;
+}
+
+h1 {
+    color: hsl(271, 36%, 24%);
+    font-weight: 700;
+    font-size: 3rem;
+    width: 500px;
+    margin-top: 30rem
+}
+
+.h4 {
+    font-weight: 700;
+}
+
+.h5 {
+    font-weight: 700;
+}
+.parag {
+    color: hsl(270, 7%, 64%);
+    line-height: 1.7;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: hsl(206, 6%, 79%);
+}
+
+
+.divlin{
+    background-color:white;
+    width:80%;
+    height:35px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-2.5rem;
+    /* border-bottom-left-radius:60%;
+    border-bottom-right-radius:60%; */
+}
+
+/* Media query*/
+
+@media only screen and (max-width: 1262px) {
+    h1 {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1109px) {
+    h1 {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1051px) {
+    .sub-curve2 {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 986px) {
+    .d-flex {
+
+        display: block !important;
+    }
+
+    .curve {
+        height: 900px;
+    }
+
+    .curve2 {
+        margin-top: 40rem;
+    }
+
+    .sub-curve {
+        margin-top: 5rem;
+    }
+
+    h1 {
+        color: hsl(271, 36%, 24%);
+        font-weight: 700;
+        font-size: 4rem;
+        width: 100%;
+        margin-top: 5rem;
+        z-index: 100;
+        position: relative;
+        text-align: center;
+    }
+
+    .parag {
+        text-align: center
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .sub-curve {
+        margin-left: 0rem;
+        margin-top: -55rem;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 100;
+    }
+
+    .curve {
+        width: 50% !important;
+    }
+
+    .curve2 {
+        width: 50% !important;
+        height: 1000px;
+        margin-left: auto;
+        margin-top: -55rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 415px) {
+
+    .card {
+        width: 90%;
+    }
+
+
+    h1 {
+        color: hsl(271, 36%, 24%);
+        font-size: 2.5rem;
+    }
+
+}
